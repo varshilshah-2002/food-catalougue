@@ -1,8 +1,7 @@
-import React from 'react'
-
+import * as React from 'react'
 const RecipeDetails = ({ title, source, calories, ingredients }) => {
     return (
-        <>
+        <div>
             <h1>{title}</h1>
             <div className='detail'>
                 <div >
@@ -18,8 +17,8 @@ const RecipeDetails = ({ title, source, calories, ingredients }) => {
                     </ol>
                 </div>
             </div>
-        </>
-    )
+        </div>
+    );
 }
 
 export default RecipeDetails

@@ -3,7 +3,7 @@ import Recipe from './Recipe'
 import './App.css';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import RecipeDetails from './RecipeDetails'
-
+import React  from 'react';
 function App() {
   const APP_ID = "9be5fdcd";
   const APP_KEY = "f9bd6cd6e2091b23bdd666a019837491";
